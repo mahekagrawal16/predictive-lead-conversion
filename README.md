@@ -39,7 +39,7 @@ This project explores lead conversion prediction using supervised learning model
 ## 🚀 Getting Started
 
 1. Clone the repository:     
-   git clone https://github.com/your-username/predictive-lead-conversion.git
+   git clone https://github.com/your-username/predictive-lead-conversion.git     
    cd predictive-lead-conversion
 2. Install dependencies:
    pip install -r requirements.txt
