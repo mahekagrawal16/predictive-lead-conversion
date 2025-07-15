@@ -4,19 +4,16 @@ We were presented with an industry-based problem centered around improving the e
 To address this challenge, we developed an AI-powered lead conversion prediction system. The core objective of this project was to:
 
 Predict whether a lead is likely to convert based on historical and behavioral data.
-
 Provide interpretability behind each prediction using SHAP (SHapley Additive exPlanations).
-
 Enable real-time decision-making for sales teams through a user-friendly web application.
 
-The solution involved building a machine learning pipeline using a Random Forest classifier, which was trained and validated on real lead data. The model was then integrated into a fully interactive Streamlit web application, capable of:
+The solution involved building a machine learning pipeline using a Random Forest classifier, which was trained and validated on real lead data. 
+
+The model was then integrated into a fully interactive Streamlit web application, capable of:
 
 Taking user input or uploaded lead data
-
 Predicting lead conversion likelihood
-
 Visualizing feature importance and confidence levels
-
 Generating a downloadable PDF report for business use
 
 
@@ -113,47 +110,47 @@ lead nurturing and ML-based scoring.
 
 1. Clone the Repository:
     
-git clone https://github.com/yourusername/predictive-lead-conversion.git
-cd predictive-lead-conversion
+git clone https://github.com/yourusername/predictive-lead-conversion.git        
+cd predictive-lead-conversion      
 
-2. **Install Dependencies**:
-pip install -r requirements.txt    
-Run the App Locally:
+2. **Install Dependencies**:     
+pip install -r requirements.txt            
+Run the App Locally:        
 
 3. **Run the App Locally**:   
-streamlit run app.py    
-ℹ️ Make sure rf_model.pkl, label_encoders.pkl, x_columns.pkl, and X_train.pkl are present in the root folder.
+streamlit run app.py          
+ℹ️ Make sure rf_model.pkl, label_encoders.pkl, x_columns.pkl, and X_train.pkl are present in the root folder.       
 
 🧾 Sample Output
 
-After prediction, the app generates:
+After prediction, the app generates:       
 
-📊 Prediction result (Converted / Not Converted)
-📌 SHAP-based top 5 influencing features
-📄 Downloadable PDF report with lead inputs, model summary, and business ROI
+📊 Prediction result (Converted / Not Converted)       
+📌 SHAP-based top 5 influencing features       
+📄 Downloadable PDF report with lead inputs, model summary, and business ROI      
 
 📥 Files Included
 .
-├── app.py                    # Main Streamlit app
-├── rf_model.pkl              # Trained Random Forest model
-├── label_encoders.pkl        # Encoders for categorical variables
-├── x_columns.pkl             # Feature column order
-├── X_train.pkl               # Training data for SHAP
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
+├── app.py                    # Main Streamlit app    
+├── rf_model.pkl              # Trained Random Forest model    
+├── label_encoders.pkl        # Encoders for categorical variables     
+├── x_columns.pkl             # Feature column order     
+├── X_train.pkl               # Training data for SHAP     
+├── requirements.txt          # Python dependencies     
+└── README.md                 # This file     
 
-📚 How to Use
+📚 How to Use   
 
-Fill in lead information manually or load a sample.
-Click Predict Conversion.
-Analyze prediction, top features, and explanation.
-Download the PDF report for sharing or records.
+Fill in lead information manually or load a sample.    
+Click Predict Conversion.    
+Analyze prediction, top features, and explanation.    
+Download the PDF report for sharing or records.   
 
 ---
 
 ## 📬 Contact
 
-For any questions or collaboration requests, feel free to reach out:  
-**Mahek Agrawal**  
-📧 mahek.suresh.aug2004@gmail.com  
-[LinkedIn](https://linkedin.com/in/mahek-agrawal-503819255)
+For any questions or collaboration requests, feel free to reach out:       
+**Mahek Agrawal**       
+📧 mahek.suresh.aug2004@gmail.com      
+[LinkedIn](https://linkedin.com/in/mahek-agrawal-503819255)    
