@@ -4,7 +4,8 @@ A machine learning-based system that predicts the likelihood of a sales lead con
 ## 🖼️ App Preview
 
 ### 🎨 User Interface
-![UI Screenshot](assets/)
+![UI Screenshot](assets/Screenshot1.png)
+![UI Screenshot](assets/Screenshot2.png)
 ---
 
 ## 🔍 Overview
