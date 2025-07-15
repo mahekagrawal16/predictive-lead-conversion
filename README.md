@@ -1,7 +1,10 @@
 # Predictive Lead Conversion
 
 A machine learning-based system that predicts the likelihood of a sales lead converting, using behavioral and demographic data. Designed to support targeted marketing strategies by identifying high-potential leads.
+## 🖼️ App Preview
 
+### 🎨 User Interface
+![UI Screenshot](assets/)
 ---
 
 ## 🔍 Overview
@@ -9,50 +12,79 @@ A machine learning-based system that predicts the likelihood of a sales lead con
 This project explores lead conversion prediction using supervised learning models. It involves preprocessing metadata, engineering meaningful features, and training models to classify whether a lead is likely to convert or not.
 
 ---
+## 🚀 Features
 
-## 💡 Features
-
-- Data preprocessing and feature engineering
-- Logistic Regression and other classifiers
-- Accuracy evaluation and model comparison
-- Exportable prediction pipeline
-
----
-
-## 🛠️ Tech Stack
-
-- Python  
-- scikit-learn  
-- pandas  
-- NumPy  
-- Jupyter Notebook
+- ✅ Real-time lead conversion prediction
+- 📈 Confidence score visualization
+- 🔍 SHAP-based feature contribution analysis
+- 📝 Downloadable PDF prediction report
+- 🎨 Stylish and interactive Streamlit UI
+- ⚡ Lightweight and fast – ready for real-world use
 
 ---
 
-## 📊 Model Performance
+## 📊 Model Details
 
-- **Best Accuracy Achieved:** 84% (Logistic Regression)
-- Tested on a sample dataset simulating lead attributes
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repository:     
-   git clone https://github.com/your-username/predictive-lead-conversion.git     
-   cd predictive-lead-conversion
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Run the notebook:
-Open `Predictive_Lead_Conversion.ipynb` in Jupyter Notebook or VS Code.
+- **Algorithm**: Random Forest Classifier
+- **Accuracy**: 84%
+- **ROC-AUC Score**: 0.89
+- **Interpretability**: SHAP (SHapley Additive exPlanations)
 
 ---
 
-## 📌 Usage
+## 🧠 Tech Stack
 
-Modify the input dataset in the `data/` folder and re-run the notebook to test the model on new lead data.
+- Python 3.9+
+- Streamlit
+- pandas, matplotlib
+- SHAP
+- FPDF
+- joblib, pickle
 
 ---
+
+## 🛠️ Installation
+
+1. **Clone the Repository**:
+
+```bash    
+git clone https://github.com/yourusername/predictive-lead-conversion.git
+cd predictive-lead-conversion
+
+2. **Install Dependencies**:
+pip install -r requirements.txt    
+Run the App Locally:
+
+3. **Run the App Locally**:   
+streamlit run app.py    
+ℹ️ Make sure rf_model.pkl, label_encoders.pkl, x_columns.pkl, and X_train.pkl are present in the root folder.
+
+🧾 Sample Output
+
+After prediction, the app generates:
+
+📊 Prediction result (Converted / Not Converted)
+📌 SHAP-based top 5 influencing features
+📄 Downloadable PDF report with lead inputs, model summary, and business ROI
+
+📥 Files Included
+.
+├── app.py                    # Main Streamlit app
+├── rf_model.pkl              # Trained Random Forest model
+├── label_encoders.pkl        # Encoders for categorical variables
+├── x_columns.pkl             # Feature column order
+├── X_train.pkl               # Training data for SHAP
+├── requirements.txt          # Python dependencies
+└── README.md                 # This file
+
+📚 How to Use
+
+Fill in lead information manually or load a sample.
+Click Predict Conversion.
+Analyze prediction, top features, and explanation.
+Download the PDF report for sharing or records.
+
+
 
 ## 📬 Contact
 
