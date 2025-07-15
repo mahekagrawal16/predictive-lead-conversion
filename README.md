@@ -1,4 +1,26 @@
-# Predictive Lead Conversion
+# Problem Statement
+We were presented with an industry-based problem centered around improving the efficiency of lead management and conversion prediction. In many real-world businesses, sales and marketing teams often struggle with prioritizing leads due to the absence of accurate data-driven insights. This leads to wasted efforts on unqualified leads and missed opportunities with high-potential prospects.
+
+To address this challenge, we developed an AI-powered lead conversion prediction system. The core objective of this project was to:
+
+Predict whether a lead is likely to convert based on historical and behavioral data.
+
+Provide interpretability behind each prediction using SHAP (SHapley Additive exPlanations).
+
+Enable real-time decision-making for sales teams through a user-friendly web application.
+
+The solution involved building a machine learning pipeline using a Random Forest classifier, which was trained and validated on real lead data. The model was then integrated into a fully interactive Streamlit web application, capable of:
+
+Taking user input or uploaded lead data
+
+Predicting lead conversion likelihood
+
+Visualizing feature importance and confidence levels
+
+Generating a downloadable PDF report for business use
+
+
+## Predictive Lead Conversion
 
 A machine learning-based system that predicts the likelihood of a sales lead converting, using behavioral and demographic data. Designed to support targeted marketing strategies by identifying high-potential leads.
 ## 🖼️ App Preview
@@ -6,12 +28,55 @@ A machine learning-based system that predicts the likelihood of a sales lead con
 ### 🎨 User Interface
 ![UI Screenshot](assets/Screenshot1.png)
 ![UI Screenshot](assets/Screenshot2.png)
+
+---
+## 🔄 What is Lead Management?
+
+Lead management is a strategic process that guides potential customers through a structured journey from initial contact to final conversion. It plays a crucial role in optimizing marketing and sales operations, ensuring no potential customer is lost due to inefficiencies or oversight.
+
+The process typically involves the following three stages:
+
+### 1. 🎯 Lead Generation
+This is the initial phase where leads (potential customers) are acquired. It includes methods like:
+- Digital advertisements
+- Social media marketing
+- Landing pages
+- Third-party sources
+- Email campaigns
+- Organic search engine traffic
+
+The goal is to attract individuals who show interest in the business offerings.
+
+### 2. ✅ Lead Qualification
+Once leads are collected, they are evaluated to determine their likelihood of becoming paying customers. Evaluation is based on:
+- Demographic details
+- Behavioral patterns (e.g., time on site, pages visited)
+- Engagement history
+
+The aim is to **prioritize high-potential leads** for the sales team.
+
+### 3. 💼 Lead Conversion
+This final stage is about turning qualified leads into customers. It includes:
+- Personalized communication
+- Follow-ups
+- Product demos
+- Special offers
+
+The success of this stage determines the effectiveness of the entire lead management pipeline.
+
 ---
 
-## 🔍 Overview
+### Figure 1: Lead Management Flow with ML Model Integration
 
-This project explores lead conversion prediction using supervised learning models. It involves preprocessing metadata, engineering meaningful features, and training models to classify whether a lead is likely to convert or not.
+> The diagram below demonstrates how a Machine Learning model can be embedded into the lead qualification stage to improve decision-making and lead prioritization.
 
+![Lead Management Flow](assets/Screenshot5.png)  <!-- Replace with your actual image file path -->
+
+---
+### Figure 2: Sales funnel from raw leads to conversions through
+lead nurturing and ML-based scoring.
+
+![Lead Management Flow](assets/Screenshot3.png) 
 ---
 ## 🚀 Features
 
@@ -46,7 +111,7 @@ This project explores lead conversion prediction using supervised learning model
 
 ## 🛠️ Installation
 
-1. **Clone the Repository**:
+1. Clone the Repository:
 
 ```bash    
 git clone https://github.com/yourusername/predictive-lead-conversion.git
