@@ -112,8 +112,7 @@ lead nurturing and ML-based scoring.
 ## 🛠️ Installation
 
 1. Clone the Repository:
-
-```bash    
+    
 git clone https://github.com/yourusername/predictive-lead-conversion.git
 cd predictive-lead-conversion
 
