@@ -130,7 +130,6 @@ After prediction, the app generates:
 📄 Downloadable PDF report with lead inputs, model summary, and business ROI      
 
 📥 Files Included      
-.
 ├── app.py                    # Main Streamlit app    
 ├── rf_model.pkl              # Trained Random Forest model    
 ├── label_encoders.pkl        # Encoders for categorical variables     
